@@ -1,19 +1,31 @@
-import { Button } from "@/components/ui/button"
+import AccordionComp from "@/Custom-Components/AccordionComp"
+import Card from "@/Custom-Components/Card"
+import Navbar from "@/Custom-Components/Navbar"
+
+ 
 
 
 
 
 
 
-const Home: React.FC = () => {
 
+
+
+
+
+
+
+
+
+ const Home: React.FC = () => {
 
     return (
-
         <>
-        <Button>Click Me</Button>
+        <Navbar/>
+        <Card/>
+        <AccordionComp/>
         </>
-
     )
-}
-export default Home
+ }
+ export default Home
